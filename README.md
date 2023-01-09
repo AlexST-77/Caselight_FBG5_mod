@@ -18,7 +18,7 @@ Here is an [example](https://github.com/Sergey1560/fb4s_howto/tree/master/case_l
 ```
 If you want to use the PWM control of brightness, the output pin must support the PWM.
 
-If you have additional elements like a temperature of chamber, modify `ui_common.h` file for adding of a case light button.
+If you have additional elements like a temperature of chamber, perhaps you need to modify `ui_common.h` file for adding of a case light button.
 
 ## Модификация кнопки управления подсветкой корпуса для прошивки FB Ghost5 Marlin.
 
@@ -39,7 +39,7 @@ If you have additional elements like a temperature of chamber, modify `ui_common
 ```
 Если вы хотите использовать управление яркостью через ШИМ (PWM), пин должен поддерживать режим PWM.
 
-Если у вас подключены другие элементы интерфейса, например, температура камеры, кнопку управления подсветкой нужно будет добавить в файле `ui_common.h` в соответствующей секции.
+Если у вас подключены другие элементы интерфейса, например, температура камеры, возможно, кнопку управления подсветкой потребуется добавить в файле `ui_common.h` в соответствующей секции.
 
 ## Photos of screen / Фото интерфейса
 Off state / Выключено
