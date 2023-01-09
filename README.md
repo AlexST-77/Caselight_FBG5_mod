@@ -3,6 +3,8 @@
 
 This mod adds a button to Marlin status screen for switching of a case light ([M355](https://marlinfw.org/docs/gcode/M355.html) command). Only for TFT 480x320 display (Flyingbear Ghost 5) and ColorUI interface. Checked on [Sergey1560 firmware](https://github.com/Sergey1560/Marlin_FB4S).
 
+The button can swith off/on the light and shows the brightness (if it's used).
+
 Here is an [example](https://github.com/Sergey1560/fb4s_howto/tree/master/case_led) of implementation from Sergey1560.
 
 ### How to install
@@ -21,6 +23,8 @@ If you have additional elements like a temperature of chamber, modify `ui_common
 ## Модификация кнопки управления подсветкой корпуса для прошивки FB Ghost5 Marlin.
 
 Модификация добавляет на экрна состояния Marlin кнопку включения подсветки корпуса (команда [M355](https://marlinfw.org/docs/gcode/M355.html)). Только для TFT экрана 480x320 (Flyingbear Ghost5) и интерфейса ColorUI. Проверено на [прошивке от Sergey1560](https://github.com/Sergey1560/Marlin_FB4S).
+
+Кнопка позволяет включать/выключать подсветку с выводом текущей яркости (при использовании управления яркостью).
 
 [Пример](https://github.com/Sergey1560/fb4s_howto/tree/master/case_led) реализации подсветки от Sergey1560.
 
