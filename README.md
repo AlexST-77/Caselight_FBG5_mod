@@ -40,3 +40,16 @@ If you have additional elements like a temperature of chamber, modify `ui_common
 Если вы хотите использовать управление яркостью через ШИМ (PWM), пин должен поддерживать режим PWM.
 
 Если у вас подключены другие элементы интерфейса, например, температура камеры, кнопку управления подсветкой нужно будет добавить в файле `ui_common.h` в соответствующей секции.
+
+## Photos of screen / Фото интерфейса
+Off state / Выключено
+
+![OFF](images/off.jpg)
+
+On state (no brightness control) / Включено (нет управления яркостью)
+
+![ON](images/on.jpg)
+
+On state with brightness / Включено с уровнем яркости
+
+![Brightness](images/bright.jpg)
