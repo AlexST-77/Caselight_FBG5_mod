@@ -3,7 +3,7 @@
 
 This mod adds a button to Marlin status screen for switching of a case light ([M355](https://marlinfw.org/docs/gcode/M355.html) command). Only for TFT 480x320 display (Flyingbear Ghost 5) and ColorUI interface. Checked on [Sergey1560 firmware](https://github.com/Sergey1560/Marlin_FB4S).
 
-The button can swith off/on the light and shows the brightness (if it's used).
+The button can switсh off/on the light and shows the brightness (if it's used).
 
 Here is an [example](https://github.com/Sergey1560/fb4s_howto/tree/master/case_led) of implementation from Sergey1560.
 
